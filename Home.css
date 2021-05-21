@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contain {
+  position: sticky;
+  margin-right: 4px;
+  top: 1px;
+  background-color: turquoise;
+  width: 149.9em;
+}
+
+a {
+  margin: 4px 0px;
+  font-family: "Newsreader", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
