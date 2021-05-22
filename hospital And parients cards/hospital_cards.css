@@ -1,0 +1,126 @@
+body{
+	background-color:#f1f1f1;
+}
+.flip-card {
+  background-color: transparent;
+  width: 357px;
+  height: 425px;
+  perspective: 1400px;
+  border-radius:5%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+	padding:15px;
+ 
+  
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-back-background{
+	position: absolute;
+    background-color: #0808086e;
+    color: white;
+}
+.flip-card-front-background{
+	position: absolute;
+     background-image: url("h5.jpg");
+    color: white;
+}
+.one {
+    position: absolute;
+    max-width: 100%;
+    height: 450px;
+	background-color: #04AA6D;
+    /*background-color: #0808086e;*/
+    color: white;
+    padding: 25px;
+    padding-top: 50%;
+	opacity:0.8;
+}
+/*Form css*/
+.left{
+	float:left;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("h1.jpg");
+
+  min-height: 450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container-1 {
+  position: absolute;
+  
+  margin: 0px;
+  max-width: 90%;
+  padding: 8px;
+  background-color: #0808086e;
+    color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=textarea],input[type=tel],input[type=email] {
+  width: 100%;
+  padding: 5px;
+  margin: 1px 0 9px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=textarea]:focus, input[type=tel]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

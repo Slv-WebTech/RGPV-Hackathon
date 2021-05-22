@@ -1,0 +1,310 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Cards in Carousel</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="hospital_cards.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<br><br>
+<h1 style="text-align: center;font-size: 42px;font-family: monospace;">Hospitals List</h1>
+<hr style="width:60%;">
+<div class="container-fluid mt-5">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="inam" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						 <div class="container">
+						 	<div class="row">
+						 		<div class="col-sm-12 col-lg-4">
+								
+								<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front flip-card-front-background" style="background-image:url('h5.jpg');">
+											<div class="one">
+												<h1>Add More Hospitals</h1>
+											</div>
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+											<div class="">
+											  <form action="/action_page.php" class="container-1">
+												<!--<h3>Add Hospitals</h3>
+													-->
+												<label class="left" for="hospital_name"><b>Hospital Name</b></label>
+												<input type="text" placeholder="Hospital Name" id="hospital_name" name="hospital_name" required>
+
+												<label class="left" for="details"><b>Details</b></label>
+												<input type="textarea" placeholder="Details" id="details" name="details" required>
+												
+												<label class="left" for="contact"><b>Contact</b></label>
+												<input type="tel" placeholder="phone number" id="contact" name="contact" required>
+												
+												<label class="left" for="link"><b>Website/Link</b></label>
+												<input type="text" placeholder="link/Website" id="link" name="link" required>
+
+												<button type="submit" class="btn">Submit</button>
+											  </form>
+											</div>	
+										</div>
+									  </div>
+									</div>
+								
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="Apollo.jpg" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <h3>Apollo Spectra Hospital</h3><br> 
+										  <p>Gwalior, Vikas Nagar
+												18, Kila Gate Road, Vikas Nagar, 
+												Near Sai Baba Mandir, Gwalior, 
+												Madhya Pradesh 474002</p> <br>
+										  <p>0751-245 4600</p>
+										  <button class="btn" onclick="document.location='https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/'">Read More..</button>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+						 		<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="ho-2.jpg" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <h3>BIMR Hospitals</h3><br> 
+										  <p>BIMR Hospitals Surya Mandir Road, Residency, Gwalior - 474005</p> <br>
+										  <p>0751-2405617</p>
+										  <button class="btn" onclick="document.location='https://www.bimrhospital.com/'">Read More..</button>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+						 		
+						 	</div>
+						 	
+						 </div>
+
+						
+					</div>
+					<div class="carousel-item">
+						 <div class="container">
+						 	<div class="row">
+						 		<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="h4.jpg" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <h3>Agrawal Hospital And Research Institute Ahri</h3><br> 
+										  <p> H-204 Madhav Nagar, Gwalior,Madhya Pradesh,474002</p> <br>
+										  <p> 2423700</p>
+										  <button class="btn" onclick="document.location='http://www.ahrihospital.com/'">Read More..</button>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="ho-4.jpg" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <h3>Arora Hospital</h3><br> 
+										  <p>20, Lalitpur Colony, Lashkar,Madhya Pradesh,474009</p> <br>
+										  <p> 2372435</p>
+										  <button class="btn" onclick="document.location='https://www.facebook.com/200201544131025/posts/arora-hospitallalitpur-colonygwalior/290866688397843/'">Read More..</button>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="h5.jpg" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <h3>Chandak Hospital And Research Institute</h3><br> 
+										  <p>No: 14, Hospital Road, Gwalior,Madhya Pradesh,474009</p> <br>
+										  <p> 2324131</p>
+										  <button class="btn" onclick="document.location='https://www.facebook.com/pages/category/Hospital/Chandak-Hospital-and-Research-Institute-252287644956670/'">Read More..</button>
+										</div>
+									  </div>
+									</div>
+						 		</div>
+						 	</div>
+						 </div>
+					</div>
+				</div>
+				<a href="#inam" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a href="#inam" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<br><hr style="color:black; height:2px;"><br>
+<h1 style="text-align: center;font-size: 42px;font-family: monospace;">Patients Say About Us</h1>
+<hr style="width:60%;">
+<div class="container-fluid mt-5">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="inam" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						 <div class="container">
+						 	<div class="row">
+						 		<div class="col-sm-12 col-lg-4">
+								
+								<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front flip-card-front-background" style="background-image:url('h5.jpg');">
+											<div class="one">
+												<h1>Add Your Review</h1>
+											</div>
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+											<div class="">
+											  <form action="/action_page.php" class="container-1">
+												<!--<h3>Add Hospitals</h3>
+													-->
+												<label class="left" for="patient_name"><b>Your Name</b></label>
+												<input type="text" placeholder="Hospital Name" id="Your Name" name="patient_name" required>
+
+												<label class="left" for="feedback"><b>Feedback/Review</b></label>
+												<input type="textarea" placeholder="Write here..." id="feedback" name="feedback" required>
+												
+												<label class="left" for="email"><b>Email</b></label>
+												<input type="email" placeholder="Email" id="email" name="email" required>
+
+												<button type="submit" class="btn">Submit</button>
+											  </form>
+											</div>	
+										</div>
+									  </div>
+									</div>
+								
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="icon.png" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <br> 
+										  <p>It gives me immense pleasure to express my sincere gratitude and thanks to the admines 
+										  because of you i am able to find oxygen and save my sister. Thank You So Much!!!! </p> <br>
+										  <h5 style="float:right;">Gopal Awasthin</h5>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+						 		<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="icon.png" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <br> 
+										  <p>This is a very nice site everyone should visit it once...  :)</p> <br>
+										  <h5 style="float:right;">Shuchita Bhajpai</h5>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+						 		
+						 	</div>
+						 	
+						 </div>
+
+						
+					</div>
+					<div class="carousel-item">
+						 <div class="container">
+						 	<div class="row">
+						 		<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="icon.png" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <br> 
+										  <p>Good Site... </p> <br>
+										  <h5 style="float:right;">Kanchan saini</h5>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="icon.png" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <br> 
+										  <p>Good Work....! </p> <br>
+										  <h5 style="float:right;">Atharva shukla</h5>
+										</div>
+									  </div>
+									</div>	
+						 			
+						 		</div>
+								<div class="col-sm-12 col-lg-4">
+						 			<div class="flip-card">
+									  <div class="flip-card-inner">
+										<div class="flip-card-front">
+										  <img src="icon.png" alt="Avatar" style="width:100%;height:100%;">
+										</div>
+										<div class="flip-card-back flip-card-back-background" style="background-image:url('h2.jpg');">
+										  <br> 
+										  <p>Congrats keep going...</p> <br>
+										  <h5 style="float:right;">Ashma</h5>
+										</div>
+									  </div>
+									</div>
+						 		</div>
+						 	</div>
+						 </div>
+					</div>
+				</div>
+				<a href="#inam" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a href="#inam" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<br><br>
+</body>
+</html>
