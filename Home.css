@@ -3,11 +3,11 @@
   padding: 0px;
 }
 
-.contain {
+.header {
   position: sticky;
   margin-right: 4px;
-  top: 1px;
-  background-color: turquoise;
+  top: 0.5px;
+  background-color: rgba(96, 247, 121, 0.596);
   width: 149.9em;
 }
 
@@ -15,5 +15,12 @@ a {
   margin: 4px 0px;
   font-family: "Newsreader", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 19px;
+}
+.main {
+  background-color: blue;
+}
+.welcome {
+  width: 149.9em;
+  height: 73em;
 }
