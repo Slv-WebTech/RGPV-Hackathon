@@ -104,6 +104,9 @@ font-family: auto;
            0 0 40px #A5F1FF; */
 
 }
+.heading_head h1{
+font-size: 4.2vh;
+}
 .heading_head p{
 display: flex;
 padding: 3rem;
@@ -112,12 +115,14 @@ justify-content: center;
 color: #8acf09;
 font-weight: 200;
 text-align: center;
-font-size: 1.8rem;
+/* font-size: 1.8rem; */
+font-size: 4.1vh;
 font-family: cursive;
 }
 .head-icon{
   color: #11ec5a;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+      font-size: 4.2vh;
   }
 .scrollToTop {
   display: none;
