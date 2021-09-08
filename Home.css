@@ -24,3 +24,43 @@ a {
 .main {
   background-color: blue;
 }
+
+em {
+  font-size: 14px;
+}
+p {
+  font-size: 13px;
+  font-family: Verdana, Helvetica, Tahoma, Trebuchet, arial, sans-serif;
+}
+.services .container {
+  padding: 2em 2em;
+}
+h1 {
+  font-family: "monospace", "Helvetica", "Arial", "sans-serif", "Tahoma",
+    "Trebuchet";
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.hborder {
+  width: 175px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 6px auto;
+}
+.about-section {
+  width: 100%;
+  height: max-content;
+}
+.about_us {
+  width: 27vw;
+  margin: 0 auto 2em;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
