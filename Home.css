@@ -76,10 +76,6 @@ a {
 .main {
   background-color: blue;
 }
-
-em {
-  font-size: 14px;
-}
 p {
   font-size: 13px;
   font-family: Verdana, Helvetica, Tahoma, Trebuchet, arial, sans-serif;
@@ -107,12 +103,10 @@ h1 {
 .about-section {
   width: 100%;
   height: max-content;
+  margin-top: 1em;
 }
 .about_us {
-  width: 27vw;
+  width: 90vw;
   margin: 0 auto 2em;
   padding: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
 }
