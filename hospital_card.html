@@ -1,0 +1,120 @@
+<!-- https://codepen.io/luanmanara/pen/poyLbWx?editors=1100 -->
+
+<!-- https://codepen.io/Maza-designDev/pen/KKdmyGb?editors=1100 -->
+
+<!-- https://codepen.io/RemiRuc/pen/PowrNmb -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hospital_card.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cards">
+        <div onplaying="thisone(this)" class="card">
+            <h2 class="card-title">Apollo spectra Hospital</h2>
+            <img src="Apollo.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
+                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
+                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
+                </div>
+                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
+                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
+                    Pradesh 474002</p>
+                <p class="phone">0751-245 4600</p>
+                <center>
+                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/">link</a></p>
+            </center>
+            </div>
+        </div>
+ 
+        
+        <div class="card">
+            <h2 class="card-title">Apollo spectra Hospital</h2>
+            <img src="Apollo.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
+                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
+                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
+                </div>
+                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
+                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
+                    Pradesh 474002</p>
+                <p class="phone">0751-245 4600</p>
+                <center>
+                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/ ">link</a></p>
+            </center>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2 class="card-title">Apollo spectra Hospital</h2>
+            <img src="Apollo.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
+                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
+                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
+                </div>
+                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
+                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
+                    Pradesh 474002</p>
+                <p class="phone">0751-245 4600</p>
+                <center>
+                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/ ">link</a></p>
+            </center>
+            </div>
+        </div>
+ 
+        
+        <div class="card">
+            <h2 class="card-title">Apollo spectra Hospital</h2>
+            <img src="Apollo.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
+                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
+                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
+                </div>
+                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
+                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
+                    Pradesh 474002</p>
+                <p class="phone">0751-245 4600</p>
+                <center>
+                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/">link</a></p>
+            </center>
+            </div>
+        </div>
+ 
+        
+    </div>
+</body>
+<script>
+    const address_btn = document.querySelector(".address-btn");
+    const phone_btn = document.querySelector(".phone-btn");
+    const address = document.querySelector(".address");
+    const phone = document.querySelector(".phone");
+    // function thisone(obj){
+
+    // };
+    //if start quiz button clicked
+    address_btn.onclick = ()=>{
+        address.classList.add("addressactive");  //show the indo box
+        phone.classList.remove("phoneactive");  //hide the info box
+    }
+    phone_btn.onclick = ()=>{
+        phone.classList.add("phoneactive");  //show the indo box
+        address.classList.remove("addressactive");  //hide the info box
+    }
+
+
+</script>
+</html>
