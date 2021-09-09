@@ -56,9 +56,19 @@ header {
 }
 .logo {
   margin: 6px;
-  width: 3.5vw;
+  width: 3vw;
   height: 5vh;
   border-radius: 50%;
+}
+@media screen and (max-width: 999px) and (min-width: 733px) {
+  .logo {
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 732px) {
+  .logo {
+    height: 3vh;
+  }
 }
 nav {
   position: fixed;
@@ -112,8 +122,11 @@ h1 {
 .about_us {
   width: 90vw;
   margin: 0 auto 2em;
-  padding: 0 24px 24px;
 }
 .about_us p {
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.404);
   font-size: 15px;
+  width: 50%;
+  margin: auto;
 }
