@@ -49,7 +49,7 @@ html,body{
 }
 .card .content .btn{
   display: block;
-  text-align: left;
+  text-align: right;
   margin: 10px 0;
 }
 .card .content .btn button{
@@ -66,3 +66,4 @@ html,body{
 .card .content .btn button:hover{
   transform: scale(0.9);
 }
+
