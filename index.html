@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,468&display=swap"
       rel="stylesheet"
@@ -15,6 +16,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="Home.css" />
@@ -22,8 +27,81 @@
   </head>
 
   <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0">
+      <div class="container">
+        <span class="navbar-brand" href="#"
+          ><img
+            alt="Life-Line"
+            class="logo"
+            src="https://www.smarteyeapps.com/upload/logo/hospital-website-template-icon.png"
+        /></span>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#">Check Availability</a>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Donation</a>
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="Dealers.html">Dealer</a>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="hospital_cards.html"
+                  >Hospitals</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#">Centers</a>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <header class="header">
-      <div
+      <div class="container-head">
+        <div class="heading_head">
+          <h1>
+            <em class="fas fa-stethoscope head-icon"></em> A HEALTHY OUTSIDE
+            STARTS FROM THE INSIDE
+          </h1>
+          <p>
+            <em
+              >"Take care of your body.<br />It's the only place you have to
+              live."</em
+            >
+          </p>
+        </div>
+      </div>
+      <!-- <div
         class="
           container
           mx-auto
@@ -87,10 +165,127 @@
             >Hospitals</a
           >
           <a class="mr-5 hover:text-white">Centers</a>
+          <a class="mr-5 hover:text-white">Contact Us</a>
+          <a class="mr-5 hover:text-white">About Us</a>
         </nav>
-      </div>
+      </div> -->
     </header>
-
+    <section id="services" class="services text-gray-600 body-font">
+      <div class="container mx-auto">
+        <div class="heading">
+          <h1>Services</h1>
+          <div class="hborder"></div>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <img
+                class="h-60 rounded w-full object-cover object-center mb-6"
+                src="blood.jpg"
+                alt="Blood"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-indigo-500 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                In M.P.
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                Blood Bank
+              </h2>
+              <p>
+                The purpose of this service blood donation service to provide
+                instant service to those who are needy of blood
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <img
+                class="h-60 rounded w-full object-cover object-center mb-6"
+                src="oxygen.jpg"
+                alt="oxygen"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-indigo-500 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                M.P. & Metro cities
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                Oxygen Service
+              </h2>
+              <p>
+                The Purpose of this service to provide oxygen dealers contact
+                number and availability of oxygen.
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <img
+                class="h-60 rounded w-full object-cover object-center mb-6"
+                src="medicine.jpg"
+                alt="medicine"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-indigo-500 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                All over India
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                Medicines
+              </h2>
+              <p>
+                The purpose of this service is to provide medical store
+                facilities/contact number are given from where you can buy
+                medicine.
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <img
+                class="h-60 rounded w-full object-cover object-center mb-6"
+                src="ambulance.jpg"
+                alt="Ambulance"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-indigo-500 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                M.P,Bhopal,Indore
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+                Ambulance
+              </h2>
+              <p>
+                The purpose of this service is to provide Ambulance
+                facilities/contact number are given from where you can ask for
+                help.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
       class="
         animate__animated
@@ -116,7 +311,7 @@
             At Last everything will be fine.
           </h1>
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            <meanspace>
+            <meanspace style="font-size: 15px">
               "Technology now allows people to connect anytime, anywhere, to
               anyone in the world, from almost any device. This is dramatically
               changing the way people work, facilitating 24/7 collaboration with
@@ -316,6 +511,26 @@
         </div>
       </div>
     </section>
+    <section id="about" class="about-section">
+      <div class="heading">
+        <h1>About Us</h1>
+        <div class="hborder"></div>
+      </div>
+      <div class="about_us">
+        <p>
+          <q
+            >MediGwl.com houses a unique portfolio of services that keep
+            healthcare professionals abreast of the latest and most significant
+            developments within their clinical, surgical or management area.
+            Covering all aspects of the hospital environment, MediGwl.com
+            provides both clinical and senior administrative staff with instant
+            access to a comprehensive reference source introducing technologies,
+            services and procedures our audience can employ to improve the
+            management of their facilities.</q
+          >
+        </p>
+      </div>
+    </section>
     <section class="text-gray-400 bg-gray-900 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
@@ -324,7 +539,10 @@
           >
             Master Cleanse Reliac Heirloom
           </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p
+            style="font-size: 15px"
+            class="lg:w-2/3 mx-auto leading-relaxed text-base"
+          >
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
             haven't heard of them man bun deep jianbing selfies heirloom prism
@@ -412,20 +630,31 @@
       </div>
     </section>
     <section
-      id="about"
+      id="team"
       class="animate__animated wow animate__flip text-gray-600 body-font"
     >
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1
+            style="
+              font-weight: bold;
+              font-size: 26px;
+              text-transform: uppercase;
+            "
+          >
             OUR TEAM
           </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            <em>
-              "This website is a group project for State level hackathon 1.0
-              organized by . Rajiv Gandhi proudyogiki Vishwavidyalaya Bhopal
-              MADHYA PRADESH ." <br />
-              "The event will provide a platform to a young students by enable
+          <div class="hborder"></div>
+          <p class="mx-auto leading-relaxed text-base">
+            <em style="font-size: 14px">
+              <q
+                >This website is a group project for State level hackathon 1.0
+                organized by</q
+              >:-
+              <br />
+              <strong>Rajiv Gandhi proudyogiki Vishwavidyalaya,Bhopal</strong
+              ><br />
+              "This event will provide a platform to a young students by enable
               them to identify real life problems ."
             </em>
           </p>
@@ -751,6 +980,7 @@
       </div>
     </section>
     <section
+      id="contact"
       class="
         animate__animated
         wow
@@ -870,6 +1100,9 @@
         </div>
       </div>
     </section>
+    <button onclick="topFunction()" class="scrollToTop" id="btnScrollToTop">
+      <em data-aos="fade-up" class="fas fa-arrow-up"></em>
+    </button>
     <footer class="text-gray-400 bg-gray-900 body-font">
       <div
         class="
@@ -977,12 +1210,32 @@
     <script>
       new WOW().init();
 
+      // window.addEventListener("scroll", function () {
+      //   let header = document.querySelector("navbar");
+      //   if (window.pageXOffset > 0) {
+      //     header.classList.add("sticky");
+      //   } else {
+      //     header.classList.remove("sticky");
+      //   }
+
+      // });
+
+      var mybutton = document.querySelector(".scrollToTop");
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
       window.addEventListener("scroll", function () {
-        let header = document.querySelector("navbar");
-        if (window.pageXOffset > 0) {
-          header.classList.add("sticky");
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark-1", "shadow");
         } else {
-          header.classList.remove("sticky");
+          nav.classList.remove("bg-dark-1", "shadow");
         }
       });
     </script>
