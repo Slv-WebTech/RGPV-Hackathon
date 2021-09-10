@@ -52,6 +52,40 @@ header {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url("../img/gwalior2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  20% {
+    background-image: url("../img/gwalior3.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  40% {
+    background-image: url("../img/gwalior4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  60% {
+    background-image: url("../img/gwalior5.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  80% {
+    background-image: url("../img/gwalior6.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  100% {
+    background-image: url("../img/gwalior7.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 .logo {
@@ -124,6 +158,18 @@ nav {
   /* font-size: 1.8rem; */
   font-size: 4.1vh;
   font-family: cursive;
+}
+.heading_head {
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  /* color: white; */
+  color: #adffff;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: auto;
 }
 .head-icon {
   color: #11ec5a;
