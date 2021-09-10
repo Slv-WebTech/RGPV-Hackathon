@@ -200,7 +200,7 @@ box-shadow: 0 20px 30px -6px black;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(h2.jpg);
+    background-image: url(../img/h2.jpg);
     background-size: cover;
     box-shadow: 0 0 20px -6px black;
     margin-bottom: -20vh;
