@@ -13,7 +13,7 @@ if (isset($_POST['login']))
   if($total==1)
   {
 
-      header('location:Home.php');
+      header('location:index.php');
   }
      
   else{

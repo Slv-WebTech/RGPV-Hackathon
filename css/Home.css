@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   animation-name: mymove;
   animation-direction: alternate;
@@ -18,46 +18,91 @@ header {
 }
 @keyframes mymove {
   0% {
-      background-image: url('../img/gwalior2.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   20% {
-      background-image: url('../img/gwalior3.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior3.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   40% {
-      background-image: url('../img/gwalior4.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   60% {
-      background-image: url('../img/gwalior5.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior5.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   80% {
-      background-image: url('../img/gwalior6.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior6.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   100% {
-      background-image: url('../img/gwalior7.jpg');
-      width: 100%;
-      background-size: cover;
-      background-attachment: fixed;
+    background-image: url("../img/gwalior7.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/gwalior2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
   }
-  
+  20% {
+    background-image: url("../img/gwalior3.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  40% {
+    background-image: url("../img/gwalior4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  60% {
+    background-image: url("../img/gwalior5.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  80% {
+    background-image: url("../img/gwalior6.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  100% {
+    background-image: url("../img/gwalior7.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
-.logo{
+.logo {
+  margin: 6px;
+  width: 3vw;
+  height: 5vh;
   border-radius: 50%;
-
+}
+@media screen and (max-width: 999px) and (min-width: 733px) {
+  .logo {
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 732px) {
+  .logo {
+    height: 3vh;
+  }
 }
 nav {
   position: fixed;
@@ -66,13 +111,14 @@ nav {
   z-index: 9999;
   flex-wrap: nowrap;
 }
-a {
-  margin: 4px 0px;
+
+.navbar a {
+  margin: 6px 4px;
   font-family: "Newsreader", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 22px;
 }
-.bg-dark-1{
+.bg-dark-1 {
   background-color: rgba(12, 5, 44, 0.726);
 }
 .main {
@@ -86,39 +132,50 @@ a {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.582);
 }
-.heading_head{
-display: flex;
-padding: 3rem;
-flex-direction: column;
-justify-content: center;
-/* color: white; */
-color: #adffff;
-font-weight: 900;
-text-align: center;
-font-size: 2.2rem;
-font-family: auto;
-
+.heading_head {
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  /* color: white; */
+  color: #adffff;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: auto;
 }
-.heading_head h1{
-font-size: 4.2vh;
+.heading_head h1 {
+  font-size: 4.2vh;
 }
-.heading_head p{
-display: flex;
-padding: 3rem;
-flex-direction: column;
-justify-content: center;
-color: #8acf09;
-font-weight: 200;
-text-align: center;
-/* font-size: 1.8rem; */
-font-size: 4.1vh;
-font-family: cursive;
+.heading_head p {
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  color: #8acf09;
+  font-weight: 200;
+  text-align: center;
+  /* font-size: 1.8rem; */
+  font-size: 4.1vh;
+  font-family: cursive;
 }
-.head-icon{
+.heading_head {
+  display: flex;
+  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  /* color: white; */
+  color: #adffff;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: auto;
+}
+.head-icon {
   color: #11ec5a;
   /* font-size: 2.5rem; */
-      font-size: 4.2vh;
-  }
+  font-size: 4.2vh;
+}
 .scrollToTop {
   display: none;
   position: fixed;
@@ -143,4 +200,97 @@ font-family: cursive;
   /* background-image: linear-gradient(45deg, rgb(177, 177, 0), rgb(121, 78, 0)); */
   /* box-shadow: 7px 7px 17px black; */
   color: rgb(19, 19, 19);
+}
+p {
+  font-size: 13px;
+  font-family: Verdana, Helvetica, Tahoma, Trebuchet, arial, sans-serif;
+}
+.services .container {
+  padding: 2em 2em;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+.more-btn {
+  align-self: flex-end;
+  border: 1px solid #11ec5a;
+  padding: 7px 10px;
+}
+.more-btn a {
+  text-decoration: none;
+  font-size: 15px;
+}
+h1 {
+  font-family: "monospace", "Helvetica", "Arial", "sans-serif", "Tahoma",
+    "Trebuchet";
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.hborder {
+  width: 175px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 6px auto;
+}
+.about-section {
+  width: 100vw;
+  height: max-content;
+  margin-top: 1em;
+}
+.about_us {
+  width: 90vw;
+  margin: 0 auto 2em;
+}
+.about_us .pfirst,
+.about_us .psecond {
+  padding: 15px 24px;
+  word-spacing: 2.3px;
+  font-size: 16px;
+  width: 49vw;
+  margin-bottom: 1em;
+}
+.about_us .pfirst {
+  background: rgb(255, 166, 0);
+}
+.about_us .psecond {
+  margin-left: 49%;
+  background: limegreen;
+}
+.about_us .pfirst::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -57;
+  margin-right: 4px;
+}
+.about_us .pfirst::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -50;
+  margin-left: 97%;
+}
+.about_us .psecond::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -37;
+  margin-right: 4px;
+}
+.about_us .psecond::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -70;
+  margin-left: 97%;
 }
