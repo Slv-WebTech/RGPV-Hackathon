@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   animation-name: mymove;
   animation-direction: alternate;
@@ -208,6 +208,19 @@ p {
 .services .container {
   padding: 2em 2em;
 }
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+.more-btn {
+  align-self: flex-end;
+  border: 1px solid #11ec5a;
+  padding: 7px 10px;
+}
+.more-btn a {
+  text-decoration: none;
+  font-size: 15px;
+}
 h1 {
   font-family: "monospace", "Helvetica", "Arial", "sans-serif", "Tahoma",
     "Trebuchet";
@@ -226,7 +239,7 @@ h1 {
   margin: 6px auto;
 }
 .about-section {
-  width: 100%;
+  width: 100vw;
   height: max-content;
   margin-top: 1em;
 }
@@ -234,23 +247,50 @@ h1 {
   width: 90vw;
   margin: 0 auto 2em;
 }
-.about_us p {
-  padding: 24px;
-  background: rgba(0, 0, 0, 0.404);
-  font-size: 15px;
-  width: 50%;
-  margin: auto;
+.about_us .pfirst,
+.about_us .psecond {
+  padding: 15px 24px;
+  word-spacing: 2.3px;
+  font-size: 16px;
+  width: 49vw;
+  margin-bottom: 1em;
 }
-.btn {
-  display: flex;
-  flex-direction: column;
+.about_us .pfirst {
+  background: rgb(255, 166, 0);
 }
-.more-btn {
-  align-self: flex-end;
-  border: 1px solid #11ec5a;
-  padding: 7px 10px;
+.about_us .psecond {
+  margin-left: 49%;
+  background: limegreen;
 }
-.more-btn a {
-  text-decoration: none;
-  font-size: 15px;
+.about_us .pfirst::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -57;
+  margin-right: 4px;
+}
+.about_us .pfirst::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -50;
+  margin-left: 97%;
+}
+.about_us .psecond::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -37;
+  margin-right: 4px;
+}
+.about_us .psecond::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -70;
+  margin-left: 97%;
 }

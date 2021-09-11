@@ -16,7 +16,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px;
 }
 .cont .card {
   position: relative;
@@ -52,7 +51,7 @@ body {
 }
 .cont .card .imgBx img {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .cont .card .content {
   position: relative;
@@ -135,4 +134,24 @@ body {
 }
 .icon .fa-map-marker-alt {
   font-size: 25px;
+}
+.oxygen-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("") no-repeat center;
+}
+.Ambulance-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("") no-repeat center;
+}
+.medicine-section {
+  width: 100vw;
+  height: 100vh;
+  background: url("") no-repeat center;
+}
+.bloodbank-section {
+  width: 100vw;
+  height: 100vh;
+  background: no-repeat center;
 }
