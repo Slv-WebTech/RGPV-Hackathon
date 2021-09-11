@@ -12,8 +12,8 @@ if (isset($_POST['login']))
   $total;
   if($total==1)
   {
-
-      header('location:Home.php');
+    $_SESSION['password'] =$pwd;
+    header('location:index.php');
   }
      
   else{

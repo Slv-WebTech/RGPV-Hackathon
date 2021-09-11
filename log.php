@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="login-wrapper">
-      <form action="login1.php" class="form" method="POST">
+      <form action="index.php" class="form" method="POST">
         <h2>Log in</h2>
         <div class="input-group">
           <input
@@ -36,7 +36,7 @@
       </form>
 
       <div id="Use-Email">
-        <form action="home.php" class="form" method="POST">
+        <form action="index.php" class="form" method="POST">
           <a href="#" class="close">&times;</a>
           <h2>Log in</h2>
           <div class="input-group">
