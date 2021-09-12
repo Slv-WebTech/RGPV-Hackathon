@@ -1,8 +1,4 @@
-<!-- https://codepen.io/luanmanara/pen/poyLbWx?editors=1100 -->
-
-<!-- https://codepen.io/Maza-designDev/pen/KKdmyGb?editors=1100 -->
-
-<!-- https://codepen.io/RemiRuc/pen/PowrNmb -->
+<?php include 'db.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,27 +21,34 @@
     </div>
     <div class="cards">
         <!-- <div onmouseover="thisone()" class="card"> -->
+            <?php 
+                $sql = "SELECT * FROM hospital_cards";
+                $result = mysqli_query($conn , $sql);
+                if($result -> num_rows > 0 ){
+                    while($row = $result->fetch_assoc()){
+                
+            ?>
         <div  class="card">
-            <h2 class="card-title">Apollo spectra Hospital</h2>
-            <img src="img/Apollo.jpg" alt="">
+            <h2 class="card-title"><?php echo $row['hos_name']; ?></h2>
+            <img src="<?php echo $row['hos_img']; ?>" alt="">
             <div class="card-desc">
                 <div class="icons">
                     <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
                     <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
                     <span class="icon link-btn"><i class="fas fa-link"></i></span>
                 </div>
-                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
-                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
-                    Pradesh 474002</p>
+                <p class="address"><?php echo $row['hos_address']; ?></p>
                     <br><hr><br>
-                <p class="phone">0751-245 4600</p>
+                <p class="phone"><?php echo $row['hos_contact']; ?></p>
                 <br><hr><br>
                 <center>
-                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/">link</a></p>
+                
+                <p class="link"><a href="<?php echo $row['hos_link']; ?>">link</a></p>
             </center>
             </div>
         </div>
-        <div  class="card">
+        <?php } } ?>
+        <!-- <div  class="card">
             <h2 class="card-title">BIMR Hospital</h2>
             <img src="img/ho-2.jpg" alt="">
             <div class="card-desc">
@@ -54,8 +57,7 @@
                     <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
                     <span class="icon link-btn"><i class="fas fa-link"></i></span>
                 </div>
-                <p class="address">BIMR Hospitals Surya Mandir Road, Residency,
-                    Gwalior - 474005</p>
+                <p class="address">BIMR Hospitals Surya Mandir Road, Residency, Gwalior - 474005</p>
                     <br><hr><br>
                 <p class="phone">0751-2405 617</p>
                 <br><hr><br>
@@ -109,8 +111,7 @@
                     <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
                     <span class="icon link-btn"><i class="fas fa-link"></i></span>
                 </div>
-                <p class="address">No: 14, Hospital Road, Gwalior, Madhya
-                    Pradesh, 474009</p>
+                <p class="address">No: 14, Hospital Road, Gwalior, Madhya Pradesh, 474009</p>
                     <br><hr><br>
                 <p class="phone">2324 131</p>
                 <br><hr><br>
@@ -118,13 +119,13 @@
                 <p class="link"><a href="https://www.facebook.com/pages/category/Hospital/Chandak-Hospital-and-Research-Institute-252287644956670/">link</a></p>
             </center>
             </div>
-        </div>
+        </div> -->
 
       
     </div>
     <div class="form-container">
     <div class="form-container-back">
-        <form action="">
+        <form action="/php/hakathon/RGPV-Hackathon/hospital_card_form.php" method="post" enctype="multipart/form-data">
         <div class="form">
             <div class="title">Add A Hospital</div>
             <div class="subtitle">Enter details of hospital</div>
@@ -144,14 +145,14 @@
             </div>
             
             <div class="input-container ic2">
-            <input id="contact" class="input" type="tel" placeholder=" " />
+            <input id="contact" class="input" name="contact"  type="tel" placeholder=" " />
             <div class="cut cut-short"></div>
             <label for="contact" class="placeholder">Contact</>
             </div>
 
             
             <div class="input-container ic2">
-            <input id="link" class="input" type="text" placeholder=" " />
+            <input id="link" class="input" name="link" type="text" placeholder=" " />
             <div class="cut cut-short"></div>
             <label for="Link" class="placeholder">Link</>
             </div>
@@ -164,7 +165,7 @@
             </div>
             
             
-            <button type="submit" class="submit">submit</button>
+            <input type="submit" name="submit" value="submit" class="submit">
         </div>
     </form>
         </div>
