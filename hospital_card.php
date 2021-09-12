@@ -50,21 +50,22 @@
             <img src="<?php echo $row['hos_img']; ?>" alt="">
             <div class="card-desc">
                 <div class="icons">
-                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
-                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
-                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
                 </div>
                 <p class="address"><?php echo $row['hos_address']; ?></p>
                     <br><hr><br>
                 <p class="phone"><?php echo $row['hos_contact']; ?></p>
                 <br><hr><br>
-                <center>
+                
                 
                 <p class="link"><a href="<?php echo $row['hos_link']; ?>">link</a></p>
-            </center>
+          
             </div>
         </div>
-        <?php } } ?>
+        <?php} 
+       } ?>
        
       </div>
      
