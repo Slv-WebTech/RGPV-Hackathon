@@ -138,20 +138,28 @@ body {
 .oxygen-section {
   width: 100vw;
   height: 100vh;
-  background: url("") no-repeat center;
+  background: url("https://media-exp1.licdn.com/dms/image/C4D1BAQHk1fau6aM1NQ/company-background_10000/0/1563993963280?e=2159024400&v=beta&t=yZ9xitonC5yyI0JprX20MMWXxmNY4TIj1L9d1glXMfs")
+    no-repeat;
+  background-size: cover;
 }
 .Ambulance-section {
   width: 100vw;
   height: 100vh;
-  background: url("") no-repeat center;
+  background: url("https://mocah.org/uploads/posts/2001836-sun-grass-clowd-woods-sunny-sunbeams-beautiful-clouds-asphalt-leaves-splendor-green-path-beauty-sunrise-way-morning-road-forest-lovely-view-sunlight-spring-sky-trees-tree-sunrays-rays-peaceful-.jpg")
+    no-repeat;
+  background-size: cover;
 }
 .medicine-section {
   width: 100vw;
   height: 100vh;
-  background: url("") no-repeat center;
+  background: url("https://thumbs.dreamstime.com/b/emergency-medical-services-concept-doctor-hand-holding-tablet-icon-network-connection-virtual-screen-interface-modern-220644995.jpg")
+    no-repeat;
+  background-size: cover;
 }
 .bloodbank-section {
   width: 100vw;
   height: 100vh;
-  background: no-repeat center;
+  background: url("https://cdn.pixabay.com/photo/2018/03/25/22/54/background-3261090_960_720.jpg")
+    no-repeat;
+  background-size: cover;
 }
