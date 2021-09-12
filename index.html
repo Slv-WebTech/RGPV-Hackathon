@@ -49,7 +49,6 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-<<<<<<< HEAD
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -76,26 +75,6 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="#about">About</a>
             </li>
-=======
-          <div class="mx-auto">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="donation.html">Donation</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-white" href="hospital_card.html"
-                  >Hospitals</a
-                >
-              </li>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea
 
               <li class="nav-item">
                 <a class="nav-link text-white" href="#about">About</a>
@@ -1292,8 +1271,10 @@
       window.addEventListener("scroll", function () {
         if (window.pageYOffset > 100) {
           nav.classList.add("bg-dark-1", "shadow");
+          mybutton.style.display = "block";
         } else {
           nav.classList.remove("bg-dark-1", "shadow");
+          mybutton.style.display = "none";
         }
       });
     </script>

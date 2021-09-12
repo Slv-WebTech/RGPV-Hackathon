@@ -1,7 +1,4 @@
-<<<<<<< HEAD:hospital_card.php
 <?php include 'db.php' ?>
-=======
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,7 +37,6 @@
       </svg>
     </div>
     <div class="cards">
-<<<<<<< HEAD:hospital_card.php
         <!-- <div onmouseover="thisone()" class="card"> -->
             <?php 
                 $sql = "SELECT * FROM hospital_cards";
@@ -69,274 +65,14 @@
             </div>
         </div>
         <?php } } ?>
-        <!-- <div  class="card">
-            <h2 class="card-title">BIMR Hospital</h2>
-            <img src="img/ho-2.jpg" alt="">
-            <div class="card-desc">
-                <div class="icons">
-                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
-                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
-                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
-                </div>
-                <p class="address">BIMR Hospitals Surya Mandir Road, Residency, Gwalior - 474005</p>
-                    <br><hr><br>
-                <p class="phone">0751-2405 617</p>
-                <br><hr><br>
-                <center>
-                <p class="link"><a href="https://www.bimrhospital.com/">link</a></p>
-            </center>
-            </div>
-=======
-      <!-- <div onmouseover="thisone()" class="card"> -->
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/Apollo.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
+       
       </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/ho-2.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
-        </div>
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/h4.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/ho-4.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-<<<<<<< HEAD:hospital_card.php
-        <div  class="card">
-            <h2 class="card-title">Chandak Hospital </h2>
-            <img src="img/h5.jpg" alt="">
-            <div class="card-desc">
-                <div class="icons">
-                    <span class="icon address-btn"><i class="fas fa-address-card"></i></span>
-                    <span class="icon phone-btn"><i class="fas fa-phone"></i></span>
-                    <span class="icon link-btn"><i class="fas fa-link"></i></span>
-                </div>
-                <p class="address">No: 14, Hospital Road, Gwalior, Madhya Pradesh, 474009</p>
-                    <br><hr><br>
-                <p class="phone">2324 131</p>
-                <br><hr><br>
-                <center>
-                <p class="link"><a href="https://www.facebook.com/pages/category/Hospital/Chandak-Hospital-and-Research-Institute-252287644956670/">link</a></p>
-            </center>
-            </div>
-        </div> -->
-=======
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/h5.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/h5.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/h5.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <h2 class="card-title">Apollo spectra Hospital</h2>
-        <img src="img/h5.jpg" alt="" />
-        <div class="card-desc">
-          <div class="icons">
-            <span class="icon address-btn"
-              ><em class="fas fa-address-card"></em
-            ></span>
-            <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-            <span class="icon link-btn"><em class="fas fa-link"></em></span>
-          </div>
-          <p class="address">
-            Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas Nagar, Near Sai Baba
-            Mandir, Gwalior, Madhya Pradesh 474002
-          </p>
-          <hr />
-          <p class="phone">0751-245 4600</p>
-          <hr />
-
-          <p class="link">
-            <a
-              href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/"
-              >link</a
-            >
-          </p>
-        </div>
-      </div>
+     
     </div>
     <div class="form-container">
-<<<<<<< HEAD:hospital_card.php
     <div class="form-container-back">
         <form action="/php/hakathon/RGPV-Hackathon/hospital_card_form.php" method="post" enctype="multipart/form-data">
         <div class="form">
-=======
-      <div class="form-container-back">
-        <form action="">
-          <div class="form">
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
             <div class="title">Add A Hospital</div>
             <div class="subtitle">Enter details of hospital</div>
 
@@ -372,27 +108,15 @@
             </div>
 
             <div class="input-container ic2">
-<<<<<<< HEAD:hospital_card.php
             <input id="contact" class="input" name="contact"  type="tel" placeholder=" " />
             <div class="cut cut-short"></div>
             <label for="contact" class="placeholder">Contact</>
-=======
-              <input id="contact" class="input" type="tel" placeholder=" " />
-              <div class="cut cut-short"></div>
-              <label for="contact" class="placeholder">Contact</label>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
             </div>
 
             <div class="input-container ic2">
-<<<<<<< HEAD:hospital_card.php
             <input id="link" class="input" name="link" type="text" placeholder=" " />
             <div class="cut cut-short"></div>
             <label for="Link" class="placeholder">Link</>
-=======
-              <input id="link" class="input" type="text" placeholder=" " />
-              <div class="cut cut-short"></div>
-              <label for="Link" class="placeholder">Link</label>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
             </div>
 
             <div class="input-container ic2">
@@ -407,20 +131,12 @@
               <div class="cut cut-short"></div>
               <label for="photo" class="placeholder">Choose image</label>
             </div>
-<<<<<<< HEAD:hospital_card.php
             
             
             <input type="submit" name="submit" value="submit" class="submit">
         </div>
     </form>
         </div>
-=======
-
-            <button type="submit" class="submit">submit</button>
-          </div>
-        </form>
-      </div>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea:hospital_card.html
     </div>
   </body>
   <!-- <script>
