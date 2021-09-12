@@ -49,54 +49,35 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-<<<<<<< HEAD
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Home</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-white" href="#">Check Availability</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link text-white" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Donation</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-white" href="Dealers.html">Dealer</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link text-white" href="hospital_card.php">Hospitals</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-white" href="#">Centers</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
-            </li>
-=======
           <div class="mx-auto">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Home</a>
               </li>
-
+              <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#">Check Availability</a>
+            </li> -->
               <li class="nav-item">
                 <a class="nav-link text-white" href="#services">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="donation.html">Donation</a>
               </li>
-
+              <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="Dealers.html">Dealer</a>
+            </li> -->
               <li class="nav-item">
                 <a class="nav-link text-white" href="hospital_card.html"
                   >Hospitals</a
                 >
               </li>
->>>>>>> 6d027370ed8519329c74e51a60da71c9010293ea
-
+              <!-- <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="hospital_card.html">Hospitals</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#">Centers</a>
+            </li> -->
               <li class="nav-item">
                 <a class="nav-link text-white" href="#about">About</a>
               </li>
@@ -201,7 +182,7 @@
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-200 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
                 src="img/blood.jpg"
@@ -233,7 +214,7 @@
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-200 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
                 src="img/oxygen.jpg"
@@ -264,7 +245,7 @@
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-200 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
                 src="img/medicine.jpg"
@@ -296,7 +277,7 @@
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-200 p-4 rounded-lg">
+            <div class="bg-gray-100 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
                 src="img/am.jpg"
@@ -487,10 +468,10 @@
                 ></path>
               </svg>
               <p class="leading-relaxed mb-6">
-                Wonderful experience with
-                <strong style="font-size: 15px">MediGwalior </strong>; recently
-                i found this website very helpful;when i need medical help this
-                website help me to found a good hospital.
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
               </p>
               <a class="inline-flex items-center">
                 <img
@@ -561,30 +542,16 @@
         <div class="hborder"></div>
       </div>
       <div class="about_us">
-        <p class="pfirst">
-          <q>
-            <strong style="font-size: 19px"> MediGwalior</strong> Founded by the
-            students of Institute of Technology and Management Gwalior, We
-            believe in delivering medical services that make all areas of
-            healthcare available from any location with simplified access from
-            your own mobile phone/tablet/PC or laptops. MediGwalior leverages
-            Technology, and Knowledge for delivering comprehensive
-            patient-centric services – anytime, anywhere. We provide services
-            such as: Blood banks Medicine facilities Ambulance 24/7 Oxygen
-            Supply Hospitals Availabilty</q
-          >
-        </p>
-        <p class="psecond">
-          <q>
-            <strong style="font-size: 19px"> MediGwalio.com</strong> houses a
-            unique portfolio of services that keep healthcare professionals
-            abreast of the latest and most significant developments within their
-            clinical, surgical or management area. Covering all aspects of the
-            hospital environment, MediGwl.com provides both clinical and senior
-            administrative staff with instant access to a comprehensive
-            reference source introducing technologies, services and procedures
-            our audience can employ to improve the management of their
-            facilities.</q
+        <p>
+          <q
+            >MediGwl.com houses a unique portfolio of services that keep
+            healthcare professionals abreast of the latest and most significant
+            developments within their clinical, surgical or management area.
+            Covering all aspects of the hospital environment, MediGwl.com
+            provides both clinical and senior administrative staff with instant
+            access to a comprehensive reference source introducing technologies,
+            services and procedures our audience can employ to improve the
+            management of their facilities.</q
           >
         </p>
       </div>
