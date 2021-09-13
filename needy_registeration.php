@@ -14,7 +14,7 @@
 <body>
 
 
-<center><div class="two pd mt">
+<div style="margin:auto" class="two pd mt">
 <h2>Patient Registration</h2>
 <hr>
 <form action="registere.php" method="post" enctype="multipart/form-data">
