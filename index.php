@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,468&display=swap" rel="stylesheet" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0" aria-label="">
     <div class="container">
-    <span class="navbar-brand" href="#"><img alt="Life-Line" class="logo" src="logo2.png" /></span>
+      <span class="navbar-brand" href="#"><img alt="Life-Line" class="logo" src="logo2.png" /></span>
 
       <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0" aria-label="">
