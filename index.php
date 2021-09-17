@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,468&display=swap"
       rel="stylesheet"
@@ -24,18 +22,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="css/Home.css" />
+    <link rel="stylesheet" href="Home.css" />
     <title>Home</title>
   </head>
 
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0">
       <div class="container">
-        <span class="navbar-brand" href="#"
-          ><img
-            alt="Life-Line"
-            class="logo"
-            src="https://www.smarteyeapps.com/upload/logo/hospital-website-template-icon.png"
+        <span class="navbar-brand animate__animated animate__bounceIn" href="#"
+          ><img alt="Life-Line" class="logo" src="logo2.png"
         /></span>
 
         <button
@@ -52,7 +47,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="mx-auto">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav animate__animated animate__bounceInRight">
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Home</a>
               </li>
@@ -60,26 +55,20 @@
               <a class="nav-link text-white" href="#">Check Availability</a>
             </li> -->
               <li class="nav-item">
-                <a class="nav-link text-white" href="#services.php">Services</a>
+                <a class="nav-link text-white" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="donationsignup.php">Donation</a>
+                <a class="nav-link text-white" href="Donation.html">Donation</a>
               </li>
               <!-- <li class="nav-item">
               <a class="nav-link text-white" href="Dealers.html">Dealer</a>
             </li> -->
               <li class="nav-item">
-                <a class="nav-link text-white" href="hospitaluser.php"
+                <a class="nav-link text-white" href="hospital_card.html"
                   >Hospitals</a
                 >
               </li>
-              <!-- <li class="nav-item">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="hospital_card.html">Hospitals</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-white" href="#">Centers</a>
-            </li> -->
+
               <li class="nav-item">
                 <a class="nav-link text-white" href="#about">About</a>
               </li>
@@ -184,10 +173,10 @@
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-200 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
-                src="img/blood.jpg"
+                src="blood.jpg"
                 alt="Blood"
               />
               <h3
@@ -200,26 +189,27 @@
               >
                 In M.P.
               </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Blood Bank
               </h2>
               <p>
-                The purpose of this service blood donation service to provide
-                instant service to those who are needy of blood
+                With our huge network of various hospitals and blood banks in
+                the city we aim to allow people to donate blood and arrange
+                blood for the needy ones 24/7.
               </p>
 
               <div class="btn">
                 <button class="more-btn" type="button">
-                  <a href="bloodsignuser.php" target="_blank">More</a>
+                  <a href="bloodbanks.html" target="_blank">More</a>
                 </button>
               </div>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-200 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
-                src="img/oxygen.jpg"
+                src="oxygen.jpg"
                 alt="oxygen"
               />
               <h3
@@ -232,25 +222,26 @@
               >
                 M.P. & Metro cities
               </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Oxygen Service
               </h2>
               <p>
-                The Purpose of this service to provide oxygen dealers contact
-                number and availability of oxygen.
+                MediGwalior has connections with various oxygen suppliers in the
+                city and therefore we provide phone numbers of such retailers
+                who provide oxygen at the lowest possible cost.
               </p>
               <div class="btn">
                 <button class="more-btn" type="button">
-                  <a href="ouser.php" target="_blank">More</a>
+                  <a href="oxygen.html" target="_blank">More</a>
                 </button>
               </div>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-200 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
-                src="img/medicine.jpg"
+                src="medicine.jpg"
                 alt="medicine"
               />
               <h3
@@ -263,26 +254,26 @@
               >
                 All over India
               </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Medicines
               </h2>
-              <p>
-                The purpose of this service is to provide medical store
-                facilities/contact number are given from where you can buy
-                medicine.
+              <p class="mb-4">
+                With the help of our database we provide phone numbers of
+                various medicine sellers who can provide medicines at cheap
+                price.
               </p>
               <div class="btn">
                 <button class="more-btn" type="button">
-                  <a href="muser.php" target="_blank">More</a>
+                  <a href="medicines.html" target="_blank">More</a>
                 </button>
               </div>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-4 rounded-lg">
+            <div class="bg-gray-200 p-4 rounded-lg">
               <img
                 class="h-60 rounded w-full object-cover object-center mb-6"
-                src="img/am.jpg"
+                src="am.jpg"
                 alt="Ambulance"
               />
               <h3
@@ -295,22 +286,22 @@
               >
                 M.P,Bhopal,Indore
               </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                 Ambulance
               </h2>
-              <p>
-                The purpose of this service is to provide Ambulance
-                facilities/contact number are given from where you can ask for
-                help.
+              <p class="mb-6">
+                The purpose of this service is to provide facilities/contact
+                number of active ambulance providers available in city.
               </p>
               <div class="btn">
                 <button class="more-btn" type="button">
-                  <a href="auser.php" target="_blank">More</a>
+                  <a href="ambulance.html" target="_blank">More</a>
                 </button>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
     <section
       class="
@@ -469,10 +460,15 @@
                 ></path>
               </svg>
               <p class="leading-relaxed mb-6">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90's microdosing. Tacos
-                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
-                authentic iceland.
+                Wonderful experience with
+                <strong style="font-size: 15px">MediGwalior </strong>; recently
+                i found this website very helpful;when i need medical help this
+                website help me to found a good hospital.It is their dedication
+                and consistency that they don’t let down their customers and
+                patient. They try to provide the best facility to their customer
+                as early as possible. They keep their website updated from time
+                to time so that all new facilities should be available to
+                everyone.
               </p>
               <a class="inline-flex items-center">
                 <img
@@ -488,9 +484,9 @@
                 />
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-white"
-                    >Holden Caulfield</span
+                    >Udit Sharma</span
                   >
-                  <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                  <span class="text-gray-500 text-sm">User</span>
                 </span>
               </a>
             </div>
@@ -508,10 +504,16 @@
                 ></path>
               </svg>
               <p class="leading-relaxed mb-6">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90's microdosing. Tacos
-                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
-                authentic iceland.
+                <strong>MEDGWALIOR</strong> is the most helpful and a perfect
+                place where one can look for the contact numbers of blood banks,
+                available hospitals and ambulances. Even in any serious
+                situation MEDGWALIOR will provide you all the necessary details
+                and will help you in the best way possible. It is their
+                dedication and consistency that they don’t let down their
+                customers and patient. They try to provide the best facility to
+                their customer as early as possible. They keep their website
+                updated from time to time so that all new facilities should be
+                available to everyone.
               </p>
               <a class="inline-flex items-center">
                 <img
@@ -527,9 +529,9 @@
                 />
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-white"
-                    >Alper Kamu</span
+                    >Tanya Gupta</span
                   >
-                  <span class="text-gray-500 text-sm">DESIGNER</span>
+                  <span class="text-gray-500 text-sm">User</span>
                 </span>
               </a>
             </div>
@@ -543,16 +545,39 @@
         <div class="hborder"></div>
       </div>
       <div class="about_us">
-        <p>
-          <q
-            >MediGwl.com houses a unique portfolio of services that keep
-            healthcare professionals abreast of the latest and most significant
-            developments within their clinical, surgical or management area.
-            Covering all aspects of the hospital environment, MediGwl.com
-            provides both clinical and senior administrative staff with instant
-            access to a comprehensive reference source introducing technologies,
-            services and procedures our audience can employ to improve the
-            management of their facilities.</q
+        <p class="pfirst animate__animated wow animate__bounceInRight">
+          <q>
+            <strong style="font-size: 19px">
+              <abbr
+                style="text-decoration: none; cursor: pointer"
+                title="MediGwalior.com"
+              >
+                MediGwalior</abbr
+              ></strong
+            >
+            Founded by the students of Institute of Technology and Management
+            Gwalior, We believe in delivering medical services that make all
+            areas of healthcare available from any location with simplified
+            access from your own mobile phone/tablet/PC or laptops. MediGwalior
+            leverages Technology, and Knowledge for delivering comprehensive
+            patient-centric services – anytime, anywhere.<br />
+            <em>
+              We provide services such as: Blood banks Medicine facilities
+              Ambulance 24/7 Oxygen Supply Hospitals Availabilty</em
+            ></q
+          >
+        </p>
+        <p class="psecond animate__animated wow animate__bounceInLeft">
+          <q>
+            <strong style="font-size: 19px"> MediGwalior.com</strong> houses a
+            unique portfolio of services that keep healthcare professionals
+            abreast of the latest and most significant developments within their
+            clinical, surgical or management area. Covering all aspects of the
+            hospital environment, MediGwl.com provides both clinical and senior
+            administrative staff with instant access to a comprehensive
+            reference source introducing technologies, services and procedures
+            our audience can employ to improve the management of their
+            facilities.</q
           >
         </p>
       </div>
@@ -668,9 +693,9 @@
               text-transform: uppercase;
             "
           >
-            OUR TEAM
+            meet the doers and builders
           </h1>
-          <div class="hborder"></div>
+          <div style="width: 450px" class="hborder"></div>
           <p class="mx-auto leading-relaxed text-base">
             <em style="font-size: 14px">
               <q
@@ -690,7 +715,7 @@
             class="
               animate__animated
               wow
-              animate__heartBeat animate__delay-3s
+              animate__heartBeat animate__delay-3s animate__slow
               p-4
               lg:w-1/4
               md:w-1/2
@@ -707,13 +732,15 @@
                   object-cover object-center
                   mb-4
                 "
-                src="img/vivek.jpg"
+                src="vivek.jpg"
               />
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
                   Vivek Sharma
                 </h2>
-                <h3 class="text-gray-500 mb-3">Web page Engineer</h3>
+                <h3 class="text-gray-500 mb-3">
+                  Web page Engineer & Project Manager
+                </h3>
                 <p class="mb-4">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
@@ -769,7 +796,7 @@
             class="
               animate__animated
               wow
-              animate__heartBeat animate__delay-4s
+              animate__heartBeat animate__delay-4s animate__slow
               p-4
               lg:w-1/4
               md:w-1/2
@@ -786,7 +813,7 @@
                   object-cover object-center
                   mb-4
                 "
-                src="img/manvi.jpeg"
+                src="manvi.jpeg"
               />
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -848,7 +875,7 @@
             class="
               animate__animated
               wow
-              animate__heartBeat animate__delay-5s
+              animate__heartBeat animate__delay-5s animate__slow
               p-4
               lg:w-1/4
               md:w-1/2
@@ -865,7 +892,7 @@
                   object-cover object-center
                   mb-4
                 "
-                src="img/sikhar.jpeg"
+                src="sikhar.jpeg"
               />
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -927,7 +954,7 @@
             class="
               animate__animated
               wow
-              animate__heartBeat animate__delay-3s
+              animate__heartBeat animate__delay-3s animate__slow
               p-4
               lg:w-1/4
               md:w-1/2
@@ -944,7 +971,7 @@
                   object-cover object-center
                   mb-4
                 "
-                src="img/visha.jpg"
+                src="visha.jpg"
               />
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -1022,7 +1049,7 @@
           title="map"
           width="100%"
           height="100%"
-          src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Madhya pradesh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           style="filter: grayscale(1) contrast(1.2) opacity(0.16)"
         ></iframe>
       </div>
@@ -1126,7 +1153,14 @@
         </div>
       </div>
     </section>
-    <button onclick="topFunction()" class="scrollToTop" id="btnScrollToTop">
+    <button
+      onclick="topFunction()"
+      class="
+        scrollToTop
+        animate__animated animate__heartBeat animate__infinite animate__slower
+      "
+      id="btnScrollToTop"
+    >
       <em data-aos="fade-up" class="fas fa-arrow-up"></em>
     </button>
     <footer class="text-gray-400 bg-gray-900 body-font">
@@ -1151,8 +1185,8 @@
         >
           COPYRIGHT @2020, All rights are reserved.—
           <a
-            href="https://twitter.com/knyttneve"
-            class="text-gray-500 ml-1"
+            href="https://github.com/Slv1-webpage"
+            class="text-gray-500 ml-1 text-xl"
             target="_blank"
             rel="noopener noreferrer"
             >@s.l.v Group</a
@@ -1167,7 +1201,10 @@
             sm:justify-start
           "
         >
-          <a class="text-gray-400">
+          <a
+            href="https://www.facebook.com/viveksupmanyu"
+            class="text-gray-400"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -1181,7 +1218,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-400">
+          <a
+            href="https://twitter.com/viveksh76483611"
+            class="ml-3 text-gray-400"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -1195,7 +1235,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-400">
+          <a
+            href="https://www.instagram.com/the_r.r_upmanyu_ji.s_son/"
+            class="ml-3 text-gray-400"
+          >
             <svg
               fill="none"
               stroke="currentColor"
@@ -1211,7 +1254,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-400">
+          <a
+            href="https://www.linkedin.com/in/viveksharma5u/"
+            class="ml-3 text-gray-400"
+          >
             <svg
               fill="currentColor"
               stroke="currentColor"
@@ -1260,8 +1306,10 @@
       window.addEventListener("scroll", function () {
         if (window.pageYOffset > 100) {
           nav.classList.add("bg-dark-1", "shadow");
+          mybutton.style.display = "block";
         } else {
           nav.classList.remove("bg-dark-1", "shadow");
+          mybutton.style.display = "none";
         }
       });
     </script>

@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form for donor</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
 
@@ -26,13 +25,11 @@
                 <div class="row ">
                     <div class="col">
                         <label for="fname">First Name<span class="required-mark"> *</span></label>
-                        <input class="form-control" type="text" id="fname" name="firstname" placeholder="First Name"
-                            required>
+                        <input class="form-control" type="text" id="fname" name="firstname" placeholder="First Name" required>
                     </div>
                     <div class="col">
                         <label for="fname">Last Name <span class="required-mark"> *</span></label>
-                        <input class="form-control" type="text" id="lname" name="lastname" placeholder="last Name"
-                            required>
+                        <input class="form-control" type="text" id="lname" name="lastname" placeholder="last Name" required>
                     </div>
 
                 </div>
@@ -45,8 +42,7 @@
                         <div class="col">
                             <label for="start">Date of Birth:<span class="required-mark">*</span></label><br>
 
-                            <input type="date" class="form-control form-rounded" id="dob" name="dob" value="dd-mm-yy"
-                                required>
+                            <input type="date" class="form-control form-rounded" id="dob" name="dob" value="dd-mm-yy" required>
                         </div>
                     </div>
                 </div>
@@ -54,24 +50,20 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <label class="col3" id="gender" style="margin-left: 40px;">Gender <span
-                                    class="required-mark">*</span></label>
+                            <label class="col3" id="gender" style="margin-left: 40px;">Gender <span class="required-mark">*</span></label>
                             <br>
 
                             <div class="form-check form-check-inline" style="margin-left: 30px;">
-                                <input class="form-check-input" type="radio" id="male" name="gender" value="Male"
-                                    required>
+                                <input class="form-check-input" type="radio" id="male" name="gender" value="Male" required>
                                 <label class="form-check-label" for="inlineCheckbox1">Male</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="female" name="gender" value="Female"
-                                    required>
+                                <input class="form-check-input" type="radio" id="female" name="gender" value="Female" required>
                                 <label class="form-check-label" for="inlineCheckbox2">Female</label>
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="other" name="gender" value="Other"
-                                    required>
+                                <input class="form-check-input" type="radio" id="other" name="gender" value="Other" required>
                                 <label class="form-check-label" for="inlineCheckbox3">Other</label>
                             </div>
                         </div>
@@ -82,7 +74,7 @@
                                 <option value="A">A</option>
                                 <option value="A+">A+</option>
                                 <option value="AB">AB</option>
-                                
+
                                 <option value="AB+">AB+</option>
                                 <option value="B-">B-</option>
                                 <option value="B+">B+</option>
@@ -99,12 +91,11 @@
                     <div class="row">
                         <div class="col">
                             <label for="username">Email</label><br>
-                            <input type="Email" class="form-control" id="Email" name="Email" placeholder="Email"
-                                required>
+                            <input type="Email" class="form-control" id="Email" name="Email" placeholder="Email" required>
                         </div>
                         <div class="col">
                             <label for="mob">Mobile Number<span class="required-mark">*</span></label><br>
-                            <input type="text" class="form-control form-rounded" id="mobile"  name="Mobile" required="" autocomplete="off">
+                            <input type="text" class="form-control form-rounded" id="mobile" name="Mobile" required="" autocomplete="off">
                         </div>
                     </div>
                 </div>
@@ -112,16 +103,12 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <label for="inputPassword4" class="form-label">Password<span
-                                    class="required-mark">*</span></label>
-                            <input type="password" class="form-control" id="password" name="password"
-                                placeholder="Password" required>
+                            <label for="inputPassword4" class="form-label">Password<span class="required-mark">*</span></label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                         </div>
                         <div class="col">
-                            <label for="inputPassword4" class="form-label">Confirm Passsword<span
-                                    class="required-mark">*</span></label>
-                            <input type="password" class="form-control" id="cpassword" name="cpassword"
-                                placeholder=" Confirm Password" required>
+                            <label for="inputPassword4" class="form-label">Confirm Passsword<span class="required-mark">*</span></label>
+                            <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder=" Confirm Password" required>
                         </div>
                     </div>
                 </div>
@@ -158,16 +145,13 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <label for="start">Last Date of Blood Donation:<span
-                                    class="required-mark">*</span></label><br>
+                            <label for="start">Last Date of Blood Donation:<span class="required-mark">*</span></label><br>
 
-                            <input type="date" class="form-control form-rounded" id="blooddonation" name="blooddate"
-                                value="dd-mm-yy" required>
+                            <input type="date" class="form-control form-rounded" id="blooddonation" name="blooddate" value="dd-mm-yy" required>
                         </div>
                         <div class="col">
                             <label for="start"> Covid Vaccine Date:</label><br>
-                            <input type="date" class="form-control form-rounded" id="vaccinedate" name="vaccinedate"
-                                value="dd-mm-yy" required>
+                            <input type="date" class="form-control form-rounded" id="vaccinedate" name="vaccinedate" value="dd-mm-yy" required>
                         </div>
                     </div>
                 </div>
