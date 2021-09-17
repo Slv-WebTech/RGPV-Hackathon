@@ -11,7 +11,7 @@
 
 <body>
   <div class="login-wrapper">
-    <form action="donation.php" class="form" method="POST">
+    <form action="Donation.php" class="form" method="POST">
       <h2>Log in</h2>
       <div class="input-group">
         <input type="text" name="mobile" autocomplete="off" required />
@@ -28,7 +28,7 @@
     </form>
 
     <div id="Use-Email">
-      <form action="donation.php" class="form" method="POST">
+      <form action="Donation.php" class="form" method="POST">
         <a href="#" class="close">&times;</a>
         <h2>Log in</h2>
         <div class="input-group">

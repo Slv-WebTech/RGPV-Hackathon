@@ -1,5 +1,5 @@
 <?php
-include('dbcon.php');
+include('db.php');
 
 if (isset($_POST['login']))
 {
@@ -20,7 +20,3 @@ if (isset($_POST['login']))
   }
 
 }
-
-?>
-
-

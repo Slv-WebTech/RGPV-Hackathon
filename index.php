@@ -11,14 +11,14 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="css/Home.css" />
+  <link rel="stylesheet" href="Home.css" />
   <title>Home</title>
 </head>
 
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0" aria-label="">
     <div class="container">
-      <span class="navbar-brand" href="#"><img alt="Life-Line" class="logo" src="https://www.smarteyeapps.com/upload/logo/hospital-website-template-icon.png" /></span>
+    <span class="navbar-brand" href="#"><img alt="Life-Line" class="logo" src="logo2.png" /></span>
 
       <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-0" aria-label="">
