@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $hos_link = $_POST['link'];
     $file = $_FILES['photo'];
 
-    // print_r($file);
+
     if ($file['size'] != 0) {
 
         $filename = $file['name'];
@@ -28,9 +28,7 @@ if (isset($_POST['submit'])) {
     }
     if ($result) {
         echo   "<script>alert('Data has been Added succesfully');</script>";
-        // header("Location: ./hospital_card.php");
     } else {
         echo  "<script>alert('this is not working');</script>";
-        // header("Location: ./hospital_card.php");
     }
 }

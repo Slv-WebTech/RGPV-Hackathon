@@ -1,10 +1,6 @@
 <?php
 
-// database name hackathon
-// for this import hackathon.sql file 
 
-// if this does't work in your system try to change 
-// localhost:3307  to  localhost
 
 $conn = new mysqli("localhost", "root", "", "hackathon");
 if (!$conn) {

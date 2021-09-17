@@ -1,7 +1,5 @@
 <?php
-//  $recent_photo = uniqid().$_FILES['recentphoto']['name'];
-//  $location = "photo/".$recent_photo;
-//  move_uploaded_file($_FILES['recentphoto']['tmp_name'],$location);
+
 $servername="localhost";
 $username="root";
 $password="";
@@ -43,5 +41,3 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
        }
     }       
 }
-
-?>
