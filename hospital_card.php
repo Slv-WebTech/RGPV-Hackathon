@@ -49,7 +49,7 @@
 
 
             <p class="link"><a href="<?php echo $row['hos_link']; ?>">link</a></p>
-            </center>
+
           </div>
         </div>
     <?php }
