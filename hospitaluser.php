@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +9,7 @@
   </head>
   <body>
     <div class="login-wrapper">
-      <form action="index.php" class="form" method="POST">
+      <form action="hospital_card.php" class="form" method="POST">
         <h2>Log in</h2>
         <div class="input-group">
           <input
@@ -37,7 +36,7 @@
       </form>
 
       <div id="Use-Email">
-        <form action="index.php" class="form" method="POST">
+        <form action="hospital_card.php" class="form" method="POST">
           <a href="#" class="close">&times;</a>
           <h2>Log in</h2>
           <div class="input-group">
