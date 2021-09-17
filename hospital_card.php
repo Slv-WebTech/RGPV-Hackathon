@@ -33,7 +33,7 @@
 
     ?>
         <div class="card">
-          <h2 class="card-title"><?php echo $row['hos_name']; ?></h2>
+          <h2 class="card-title" style="min-height:5vh"><?php echo $row['hos_name']; ?></h2>
           <img src="<?php echo $row['hos_img']; ?>" alt="">
           <div class="card-desc">
             <div class="icons">
