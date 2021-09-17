@@ -26,7 +26,7 @@ h1 {
   background: #fff;
 }
 .slider .card .img {
-  height: 200px;
+  height: 220px;
   width: 100%;
 }
 .slider .card .img img {
@@ -38,11 +38,13 @@ h1 {
   padding: 10px 20px;
 }
 .card .content .title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 5px;
 }
 .card .content .sub-title {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #e74c3c;
   line-height: 20px;

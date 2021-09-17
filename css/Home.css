@@ -89,10 +89,9 @@ header {
   }
 }
 .logo {
-  margin: 6px;
-  width: 3vw;
-  height: 5vh;
-  border-radius: 50%;
+  margin-top: 7px;
+  width: 7vw;
+  height: 7vh;
 }
 @media screen and (max-width: 999px) and (min-width: 733px) {
   .logo {
@@ -242,7 +241,8 @@ h1 {
   width: 100vw;
   height: max-content;
   margin-top: 3em;
-  background: url("../img/abg.jpg");
+  background: url("../img/abg.jpg") no-repeat;
+  background-size: cover;
   padding-bottom: 4em;
 }
 .about_us {
@@ -265,6 +265,16 @@ h1 {
   margin-left: 49%;
   background: limegreen;
   box-shadow: 15px 15px 10px rgb(151, 137, 137);
+}
+@media screen and (max-width: 1462px) {
+  .about_us .pfirst,
+  .about_us .psecond {
+    width: 90vw;
+    margin-left: 0;
+  }
+  .about-section {
+    padding-bottom: 6em;
+  }
 }
 .about_us .pfirst::before {
   content: "\201C";
