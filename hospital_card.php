@@ -18,7 +18,7 @@
 <body>
   <div class="mainDiv">
     <h1>
-      <img src="img/hospital.png" height="100rem" alt="" /> Hospital Cards
+      <img src="hospital.png" height="100rem" alt="" /> Hospital Cards
     </h1>
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
       <path fill="#34495e" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,85.3C840,85,960,139,1080,138.7C1200,139,1320,85,1380,58.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>

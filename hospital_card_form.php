@@ -1,6 +1,6 @@
 <?php
- include 'db.php';
-if(isset($_POST['submit'])){
+include 'db.php';
+if (isset($_POST['submit'])) {
     $result;
 
     $hos_name = $_POST['hospital_name'];
@@ -10,31 +10,27 @@ if(isset($_POST['submit'])){
     $file = $_FILES['photo'];
 
     // print_r($file);
-    if($file['size']!=0){
-    
+    if ($file['size'] != 0) {
+
         $filename = $file['name'];
         $filepath = $file['tmp_name'];
         $fileerror = $file['error'];
 
-        if($fileerror == 0){
-            $destfile = 'img/'.$filename;
-            move_uploaded_file($filepath,$destfile);
+        if ($fileerror == 0) {
+            $destfile = $filename;
+            move_uploaded_file($filepath, $destfile);
         }
 
-        
+
         $sql = "INSERT INTO `hospital_cards`( `hos_name`, `hos_address`, `hos_contact`, `hos_link`, `hos_img`) VALUES ('$hos_name','$hos_address','$hos_contact','$hos_link','$destfile')";
 
         $result = mysqli_query($conn, $sql);
     }
-    if($result){
+    if ($result) {
         echo   "<script>alert('Data has been Added succesfully');</script>";
         // header("Location: ./hospital_card.php");
-    }
-    else {
+    } else {
         echo  "<script>alert('this is not working');</script>";
         // header("Location: ./hospital_card.php");
     }
-    
 }
-
-?>
