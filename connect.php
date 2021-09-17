@@ -2,17 +2,11 @@
 //  $recent_photo = uniqid().$_FILES['recentphoto']['name'];
 //  $location = "photo/".$recent_photo;
 //  move_uploaded_file($_FILES['recentphoto']['tmp_name'],$location);
-
-
-// $servername="localhost:3307";
-// // $servername="localhost";
-// $username="root";
-// $password="";
-// $database="donorform";
-// $conn=mysqli_connect($servername,$username,$password,$database);
-
-include 'db.php';
-
+$servername="localhost";
+$username="root";
+$password="";
+$database="donorform";
+$conn=mysqli_connect($servername,$username,$password,$database);
 if($_SERVER['REQUEST_METHOD']=="POST"){
     $firstname=$_POST['firstname'];
     $lastname=$_POST['lastname'];
