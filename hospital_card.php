@@ -1,4 +1,4 @@
-<?php include 'db.php' ?>
+<!-- <?php include 'db.php' ?> -->
 <!-- <?php include 'connect.php' ?> -->
 <!DOCTYPE html>
 <html lang="en">
@@ -26,35 +26,97 @@
     </svg>
   </div>
   <div class="cards">
-    <?php
-    $sql = "SELECT * FROM hospital_cards";
-    $result = mysqli_query($conn, $sql);
-    if ($result->num_rows > 0) {
-      while ($row = $result->fetch_assoc()) {
-
-    ?>
-        <div class="card">
-          <h2 class="card-title" style="min-height:5vh"><?php echo $row['hos_name']; ?></h2>
-          <img src="<?php echo $row['hos_img']; ?>" alt="">
-          <div class="card-desc">
-            <div class="icons">
-              <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
-              <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
-              <span class="icon link-btn"><em class="fas fa-link"></em></span>
+       <div  class="card">
+            <h2 class="card-title">Apollo spectra Hospital</h2>
+            <img src="Apollo.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
+                </div>
+                <p class="address">Gwalior, Vikas Nagar 18, Kila Gate Road, Vikas
+                    Nagar, Near Sai Baba Mandir, Gwalior, Madhya
+                    Pradesh 474002</p>
+                    <hr>
+                <p class="phone">0751-245 4600</p>
+                <hr>
+                <p class="link"><a href="https://www.apollospectra.com/our-hospitals/gwalior/vikas-nagar/best-hospital-in-vikas-nagar-gwalior/">link</a></p>
+            
             </div>
-            <p class="address"><?php echo $row['hos_address']; ?></p>
-            <br>
-            <hr><br>
-            <p class="phone"><?php echo $row['hos_contact']; ?></p>
-            <hr>
-
-
-            <p class="link"><a href="<?php echo $row['hos_link']; ?>">link</a></p>
-
-          </div>
         </div>
-    <?php }
-    } ?>
+        <div  class="card">
+            <h2 class="card-title">BIMR Hospital</h2>
+            <img src="ho-2.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
+
+                </div>
+                <p class="address">BIMR Hospitals Surya Mandir Road, Residency,
+                    Gwalior - 474005</p>
+                <hr><p class="phone">0751-2405 617</p>
+            <hr>    <p class="link"><a href="https://www.bimrhospital.com/">link</a></p>
+            
+            </div>
+        </div>
+        <div  class="card">
+            <h2 class="card-title">Agrawal Hospital </h2>
+            <img src="h4.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
+
+                </div>
+                <p class="address">H-204 Madhav Nagar, Gwalior, Madhya Pradesh, 474002</p>
+                  <hr>
+                <p class="phone">2423 700</p>
+             <hr>
+                <p class="link"><a href="http://www.ahrihospital.com/">link</a></p>
+            
+            </div>
+        </div>
+        <div  class="card">
+            <h2 class="card-title">Arora Hospital</h2>
+            <img src="ho-4.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
+                </div>
+                <p class="address">20, Lalitpur Colony, Lashkar, Madhya Pradesh, 474009</p>
+                <hr><p class="phone">2372 435</p>
+             <hr>
+                <p class="link"><a href="https://www.facebook.com/200201544131025/posts/arora-hospitallalitpur-colonygwalior/290866688397843/">link</a></p>
+            
+            </div>
+        </div>
+        <div  class="card">
+            <h2 class="card-title">Chandak Hospital </h2>
+            <img src="h5.jpg" alt="">
+            <div class="card-desc">
+                <div class="icons">
+                    <span class="icon address-btn"><em class="fas fa-address-card"></em></span>
+                    <span class="icon phone-btn"><em class="fas fa-phone"></em></span>
+                    <span class="icon link-btn"><em class="fas fa-link"></em></span>
+
+                </div>
+                <p class="address">No: 14, Hospital Road, Gwalior, Madhya
+                    Pradesh, 474009</p>
+                    <hr>
+                <p class="phone">2324 131</p>
+                <hr>
+                <p class="link"><a href="https://www.facebook.com/pages/category/Hospital/Chandak-Hospital-and-Research-Institute-252287644956670/">link</a></p>
+         
+            </div>
+      
+     
+ 
 
   </div>
 
