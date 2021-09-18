@@ -315,7 +315,7 @@
               everyone.
             </p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="vivek" class="
+              <img alt="testimonial" src="viveks.jpg" class="
                     w-12
                     h-12
                     rounded-full
@@ -347,7 +347,7 @@
               available to everyone.
             </p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/107x107" class="
+              <img alt="testimonial" src="visha.jpg" class="
                     w-12
                     h-12
                     rounded-full
