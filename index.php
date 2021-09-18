@@ -440,66 +440,37 @@
                   object-cover object-center
                   mb-4
 <<<<<<< HEAD
-                "
-                src="vivek.jpg"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Vivek Sharma
-                </h2>
-                <h3 class="text-gray-500 mb-3">
-                  Web page Engineer & Project Manager
-                </h3>
-                <p class="mb-4">
-                 Most Talented and Hardworking person with positive attitude and kind nature.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-=======
                 " src="vivek.jpg" />
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-gray-900">
+                Vivek Sharma
+              </h2>
+              <h3 class="text-gray-500 mb-3">
+                Web page Engineer & Project Manager
+              </h3>
+              <p class="mb-4">
+                Most Talented and Hardworking person with positive attitude and kind nature.
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            =======
+            " src="vivek.jpg" />
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">
                 Vivek Sharma
@@ -528,7 +499,7 @@
                   </svg>
                 </a>
               </span>
->>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
+              >>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
             </div>
           </div>
         </div>
@@ -549,64 +520,35 @@
                   object-cover object-center
                   mb-4
 <<<<<<< HEAD
-                "
-                src="manvi.jpeg"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Manvi Chauhan
-                </h2>
-                <h3 class="text-gray-500 mb-3">Database Administrator</h3>
-                <p class="mb-4">
-                  Highly intelligent and talented person with kind nature and a beautiful smile.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-=======
                 " src="manvi.jpeg" />
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-gray-900">
+                Manvi Chauhan
+              </h2>
+              <h3 class="text-gray-500 mb-3">Database Administrator</h3>
+              <p class="mb-4">
+                Highly intelligent and talented person with kind nature and a beautiful smile.
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            =======
+            " src="manvi.jpeg" />
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">
                 Manvi Chauhan
@@ -633,7 +575,7 @@
                   </svg>
                 </a>
               </span>
->>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
+              >>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
             </div>
           </div>
         </div>
@@ -654,64 +596,35 @@
                   object-cover object-center
                   mb-4
 <<<<<<< HEAD
-                "
-                src="sikhar.jpeg"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Shikhar Singhal
-                </h2>
-                <h3 class="text-gray-500 mb-3">Frontend Developer</h3>
-                <p class="mb-4">
-                 Good person with Cold mind and simple living habit.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-=======
                 " src="sikhar.jpeg" />
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-gray-900">
+                Shikhar Singhal
+              </h2>
+              <h3 class="text-gray-500 mb-3">Frontend Developer</h3>
+              <p class="mb-4">
+                Good person with Cold mind and simple living habit.
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            =======
+            " src="sikhar.jpeg" />
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">
                 Shikhar Singhal
@@ -738,7 +651,7 @@
                   </svg>
                 </a>
               </span>
->>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
+              >>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
             </div>
           </div>
         </div>
@@ -759,64 +672,35 @@
                   object-cover object-center
                   mb-4
 <<<<<<< HEAD
-                "
-                src="visha.jpg"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Vishakha Gandhi
-                </h2>
-                <h3 class="text-gray-500 mb-3">Graphics designer</h3>
-                <p class="mb-4">
-                Highly Qualified person with Humble nature and Great senseofhumour.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewbox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-=======
                 " src="visha.jpg" />
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-gray-900">
+                Vishakha Gandhi
+              </h2>
+              <h3 class="text-gray-500 mb-3">Graphics designer</h3>
+              <p class="mb-4">
+                Highly Qualified person with Humble nature and Great senseofhumour.
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewbox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            =======
+            " src="visha.jpg" />
             <div class="w-full">
               <h2 class="title-font font-medium text-lg text-gray-900">
                 Vishakha Gandhi
@@ -843,7 +727,7 @@
                   </svg>
                 </a>
               </span>
->>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
+              >>>>>>> 4989d7e83914be08dc8ffb7e9ee8b39796e3f8dc
             </div>
           </div>
         </div>
