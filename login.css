@@ -90,8 +90,14 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-.Use-Email {
+.submit-btn:hover {
+  background: red;
+  color: white;
+}
+.form a {
   color: whitesmoke;
+  margin: 4px;
+  font-size: 1.2rem;
 }
 
 #Use-Email {

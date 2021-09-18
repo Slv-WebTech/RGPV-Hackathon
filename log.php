@@ -12,7 +12,7 @@
 <body>
   <div class="login-wrapper">
     <form action="index.php" class="form" method="POST">
-      <h2>Log in</h2>
+      <h1>Log in</h1>
       <div class="input-group">
         <input type="text" name="mobile" autocomplete="off" required />
         <label>Phone Number</label>
@@ -25,6 +25,8 @@
 
       <input type="submit" value="login" name="login" class="submit-btn" />
       <a href="#Use-Email" class="Use-Email">Use Email</a>
+      <a href="Donationsignup.php" class="Use-Email">Donors</a>
+      <a href="needy_registeration.php" class="Use-Email">Needy</a>
     </form>
 
     <div id="Use-Email">

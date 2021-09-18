@@ -25,6 +25,8 @@
 
       <input type="submit" value="login" name="login" class="submit-btn" />
       <a href="#Use-Email" class="Use-Email">Use Email</a>
+      <a href="Donorform.php" class="Use-Email">Donors</a>
+      <a href="needy_registeration.php" class="Use-Email">Needy</a>
     </form>
 
     <div id="Use-Email">
